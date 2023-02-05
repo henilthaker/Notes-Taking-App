@@ -185,6 +185,9 @@ code {
 }
 
 /* menu */
+.menu{
+  margin-top: 0;
+}
 .menu li{
   font-size: 3em;
 }
@@ -192,7 +195,7 @@ code {
   display: none;
 }
 .visible{
-display: unset;
+display: block;
 }
 .clicked{
   transform: rotateZ(45deg);
