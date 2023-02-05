@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* sidebar-styles */
+.sideBar {
+  /* margin:5px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+  width: 7vw;
+  /* border-right: 1px solid black; */
+}
+
+#my-notes{
+  margin-top: 20px;
+  text-decoration: none;
+  background-color:burlywood;
+  padding: 5px;
+  color: black;
+  text-align: justify;
+}
+#add {
+  margin-top: 10px;
+  background-color: white;
+  color: rgb(71, 71, 71);
+  border: 0;
+}
+
+/* side-bar 2 */
+.sideBar2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 7vw;
+  border-right: 1px solid black;
+}
+
+.sideBar2 button {
+  text-decoration: none;
+  margin-top: 5vh;
+}
+
+.add-note {
+  background-color: white;
+  border: 0;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* navbar-styles */
+.navBar {
+  width: 93vw;
+  /* border-bottom: 1px solid black; */
+}
+
+/* home-page-styles */
+.noteList {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border-right: 1px solid black; */
+}
+
+.note-preview {
+  position: relative;
+  margin: 10px;
+  /* border: 1px solid black; */
+  border-radius: 7px;
+  width: 27vw;
+  height: 42vh;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px #838383;
+  /* background-color: coral; */
+}
+.note-preview a{
+  text-decoration: none;
+  color: black;
+}
+#delete-button {
+  z-index: 1;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  background-color: rgb(91, 91, 91);
+  color: white;
+  font-size: 20px;
+  align-content: center;
+}
+#delete-button:hover {
+  cursor: pointer;
+}
+.noteDetails{
+  display: grid;
+  grid-template-columns: auto;
+  margin:10px 0px;
+}
+.noteDetails div{
+  margin:auto;
+  height: 60vh;
+  width: 60vw;
+  border-radius: 5px;
+  box-shadow:0px 0px 5px
+}
+.noteDetails h2{
+  margin-top: 0px;
+}
+/* Create-styles */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create input,
+.create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* menu */
+.menu li{
+  font-size: 3em;
+}
+.hidden{
+  display: none;
+}
+.visible{
+display: unset;
+}
+.clicked{
+  transform: rotateZ(45deg);
+  transition: ease-out 0.2s;
+}
+/* animations */

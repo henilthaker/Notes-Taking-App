@@ -1,0 +1,40 @@
+{
+  "notes": [
+    {
+      "title": "First Note",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nihil. Ratione doloribus dolores tempora minima, delectus optio consequatur nihil, quae deserunt mollitia accusamus, tempore ducimus laborum voluptatibus ullam illum. Ad nostrum dolor, ipsam dignissimos eos consequuntur maxime iusto harum voluptatibus a vitae tenetur amet ullam cupiditate repellat voluptas et, deleniti nam facilis aliquid distinctio beatae dicta modi! Ipsam molestias debitis voluptatum sed rerum dignissimos quidem quaerat, numquam inventore enim eaque rem obcaecati doloremque sunt impedit aliquid commodi dolores perspiciatis neque veritatis nisi provident sit! Cumque excepturi odit repellendus, ad dolorem recusandae dignissimos voluptatem velit tempore consequuntur quidem tempora nostrum provident!",
+      "color": "coral",
+      "id": 1
+    },
+    {
+      "title": "Second Note",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nihil. Ratione doloribus dolores tempora minima, delectus optio consequatur nihil, quae deserunt mollitia accusamus, tempore ducimus laborum voluptatibus ullam illum. Ad nostrum dolor, ipsam dignissimos eos consequuntur maxime iusto harum voluptatibus a vitae tenetur amet ullam cupiditate repellat voluptas et, deleniti nam facilis aliquid distinctio beatae dicta modi! Ipsam molestias debitis voluptatum sed rerum dignissimos quidem quaerat, numquam inventore enim eaque rem obcaecati doloremque sunt impedit aliquid commodi dolores perspiciatis neque veritatis nisi provident sit! Cumque excepturi odit repellendus, ad dolorem recusandae dignissimos voluptatem velit tempore consequuntur quidem tempora nostrum provident!",
+      "color": "aquamarine",
+      "id": 2
+    },
+    {
+      "title": "Third Note",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nihil. Ratione doloribus dolores tempora minima, delectus optio consequatur nihil, quae deserunt mollitia accusamus, tempore ducimus laborum voluptatibus ullam illum. Ad nostrum dolor, ipsam dignissimos eos consequuntur maxime iusto harum voluptatibus a vitae tenetur amet ullam cupiditate repellat voluptas et, deleniti nam facilis aliquid distinctio beatae dicta modi! Ipsam molestias debitis voluptatum sed rerum dignissimos quidem quaerat, numquam inventore enim eaque rem obcaecati doloremque sunt impedit aliquid commodi dolores perspiciatis neque veritatis nisi provident sit! Cumque excepturi odit repellendus, ad dolorem recusandae dignissimos voluptatem velit tempore consequuntur quidem tempora nostrum provident!",
+      "color": "cadetblue",
+      "id": 3
+    },
+    {
+      "title": "Fourth Note",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nihil. Ratione doloribus dolores tempora minima, delectus optio consequatur nihil, quae deserunt mollitia accusamus, tempore ducimus laborum voluptatibus ullam illum. Ad nostrum dolor, ipsam dignissimos eos consequuntur maxime iusto harum voluptatibus a vitae tenetur amet ullam cupiditate repellat voluptas et, deleniti nam facilis aliquid distinctio beatae dicta modi! Ipsam molestias debitis voluptatum sed rerum dignissimos quidem quaerat, numquam inventore enim eaque rem obcaecati doloremque sunt impedit aliquid commodi dolores perspiciatis neque veritatis nisi provident sit! Cumque excepturi odit repellendus, ad dolorem recusandae dignissimos voluptatem velit tempore consequuntur quidem tempora nostrum provident!",
+      "color": "deepskyblue",
+      "id": 4
+    },
+    {
+      "title": "Fifth Note",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nihil. Ratione doloribus dolores tempora minima, delectus optio consequatur nihil, quae deserunt mollitia accusamus, tempore ducimus laborum voluptatibus ullam illum. Ad nostrum dolor, ipsam dignissimos eos consequuntur maxime iusto harum voluptatibus a vitae tenetur amet ullam cupiditate repellat voluptas et, deleniti nam facilis aliquid distinctio beatae dicta modi! Ipsam molestias debitis voluptatum sed rerum dignissimos quidem quaerat, numquam inventore enim eaque rem obcaecati doloremque sunt impedit aliquid commodi dolores perspiciatis neque veritatis nisi provident sit! Cumque excepturi odit repellendus, ad dolorem recusandae dignissimos voluptatem velit tempore consequuntur quidem tempora nostrum provident!",
+      "color": "yellow",
+      "id": 5
+    },
+    {
+      "title": "Sixth Note",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nihil. Ratione doloribus dolores tempora minima, delectus optio consequatur nihil, quae deserunt mollitia accusamus, tempore ducimus laborum voluptatibus ullam illum. Ad nostrum dolor, ipsam dignissimos eos consequuntur maxime iusto harum voluptatibus a vitae tenetur amet ullam cupiditate repellat voluptas et, deleniti nam facilis aliquid distinctio beatae dicta modi! Ipsam molestias debitis voluptatum sed rerum dignissimos quidem quaerat, numquam inventore enim eaque rem obcaecati doloremque sunt impedit aliquid commodi dolores perspiciatis neque veritatis nisi provident sit! Cumque excepturi odit repellendus, ad dolorem recusandae dignissimos voluptatem velit tempore consequuntur quidem tempora nostrum provident!",
+      "color": "cyan",
+      "id": 6
+    }
+  ]
+}
