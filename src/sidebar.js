@@ -27,12 +27,12 @@ const SideBar = () => {
                 </svg>
             </div>
             <ul className={menuClass}>
-                <Link to={'/create/yellow'}><li style={{ color: 'yellow' }} onClick={updateClass}></li></Link>
-                <Link to={'/create/coral'}><li style={{ color: 'coral' }} onClick={updateClass}></li></Link>
-                <Link to={'/create/cyan'}><li style={{ color: 'cyan' }} onClick={updateClass}></li></Link>
-                <Link to={'/create/cadetblue'}><li style={{ color: 'cadetblue' }} onClick={updateClass}></li></Link>
-                <Link to={'/create/deepskyblue'}><li style={{ color: 'deepskyblue' }} onClick={updateClass}></li></Link>
-                <Link to={'/create/aquamarine'}><li style={{ color: 'aquamarine' }} onClick={updateClass}></li></Link>
+                <Link to={'/create/yellow'}><li style={{ color: 'yellow' }} onClick={updateClass}> </li></Link>
+                <Link to={'/create/coral'}> <li style={{ color: 'coral' }} onClick={updateClass}> </li></Link>
+                <Link to={'/create/cyan'}><li style={{ color: 'cyan' }} onClick={updateClass}> </li></Link>
+                <Link to={'/create/cadetblue'}><li style={{ color: 'cadetblue' }} onClick={updateClass}> </li></Link>
+                <Link to={'/create/deepskyblue'}><li style={{ color: 'deepskyblue' }} onClick={updateClass}> </li></Link>
+                <Link to={'/create/aquamarine'}><li style={{ color: 'aquamarine' }} onClick={updateClass}> </li></Link>
 
             </ul>
         </div>
