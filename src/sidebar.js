@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import Modal from './modal.js';
 const SideBar = () => {
     const [buttonClass, setbuttonClass] = useState("button unclicked");
     const [menuClass, setMenuClass] = useState("menu hidden");
     const [isClicked, setIsClicked] = useState(false)
-
+    const [modal, setModal] = useState(false);
+    const [bgcolor, setBgcolor] = useState('white');
+    const toggleModal = () => {
+        setModal(!modal);
+    }
     const updateClass = () => {
         if (!isClicked) {
             setIsClicked(true);
@@ -17,6 +22,17 @@ const SideBar = () => {
             setbuttonClass("button unclicked");
         }
     }
+    const handleClickOnColors = (color) => {
+        updateClass();
+        setBgcolor(color);
+        toggleModal();
+    }
+    let overlay = document.getElementsByClassName('overlay');
+    let create = document.getElementsByClassName('modal');
+    overlay.onClick=(e)=>{
+        if(e.target!=create)
+            toggleModal();
+    }
     return (
         <div className="sideBar">
             <Link to='/' id="my-notes">My Notes</Link>
@@ -27,14 +43,16 @@ const SideBar = () => {
                 </svg>
             </div>
             <ul className={menuClass}>
-                <Link to={'/create/yellow'}><li style={{ color: 'yellow' }} onClick={updateClass}> </li></Link>
-                <Link to={'/create/coral'}> <li style={{ color: 'coral' }} onClick={updateClass}> </li></Link>
-                <Link to={'/create/cyan'}><li style={{ color: 'cyan' }} onClick={updateClass}> </li></Link>
-                <Link to={'/create/cadetblue'}><li style={{ color: 'cadetblue' }} onClick={updateClass}> </li></Link>
-                <Link to={'/create/deepskyblue'}><li style={{ color: 'deepskyblue' }} onClick={updateClass}> </li></Link>
-                <Link to={'/create/aquamarine'}><li style={{ color: 'aquamarine' }} onClick={updateClass}> </li></Link>
-
+                <div><li style={{ color: 'yellow' }} onClick={() => { handleClickOnColors('yellow') }}> </li></div>
+                <div> <li style={{ color: 'coral' }} onClick={() => { handleClickOnColors('coral') }}> </li></div>
+                <div><li style={{ color: 'cyan' }} onClick={() => { handleClickOnColors('cyan') }}> </li></div>
+                <div><li style={{ color: 'cadetblue' }} onClick={() => { handleClickOnColors('cadetblue') }}> </li></div>
+                <div><li style={{ color: 'deepskyblue' }} onClick={() => { handleClickOnColors('deepskyblue') }}> </li></div>
+                <div><li style={{ color: 'aquamarine' }} onClick={() => { handleClickOnColors('aquamarine') }}> </li></div>
             </ul>
+            {modal && <div className="overlay" onClick={toggleModal}>
+            <Modal color={bgcolor}/>
+            </div>}
         </div>
     )
 }

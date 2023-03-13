@@ -5,6 +5,7 @@ import NavBar from './navbar.js'
 import Home from './home.js'
 import Create from "./create.js";
 import NoteDetails from "./notedetails";
+import Modal from "./modal";
 function App() {
   return (
     <Router>
@@ -19,9 +20,6 @@ function App() {
             <Route exact path='/notes/:id'>
               {/* <Home /> */}
               <NoteDetails />
-            </Route>
-            <Route exact path='/create/:color'>
-              <Create />
             </Route>
           </Switch>
         </div>

@@ -3,6 +3,7 @@ import NoteList from './notelist.js'
 import useFetchNotes from "./useFetchNotes.js";
 const Home = () => {
     const { notes, isPending, error } = useFetchNotes('http://localhost:8000/notes')
+
     return (
         <div>
             {isPending && <div>Loading...</div>}
